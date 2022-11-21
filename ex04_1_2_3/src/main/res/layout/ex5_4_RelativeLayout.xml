@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/phoneNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전화번호"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <EditText
+        android:id="@+id/inputNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="000-0000-0000"
+        android:layout_toRightOf="@+id/phoneNo"
+        android:layout_alignBaseline="@+id/phoneNo"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:textSize="17dp"
+        android:text="입력"
+        android:layout_toLeftOf="@+id/btnCxl"
+        android:layout_alignBaseline="@+id/btnCxl"/>
+
+    <Button
+        android:id="@+id/btnCxl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:text="취소"
+        android:layout_below="@+id/inputNo"
+        android:layout_alignRight="@+id/inputNo" />
+
+</RelativeLayout>
