@@ -16,3 +16,5 @@ rootProject.name = "Kotlin_tr"
 include ':app'
 include ':ex04_1_2_3'
 include ':project5_2'
+include ':chapter06'
+include ':ch06_actionbar_fragment'

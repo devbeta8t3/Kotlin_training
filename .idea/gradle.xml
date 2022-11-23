@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -10,6 +11,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/ch06_actionbar_fragment" />
+            <option value="$PROJECT_DIR$/chapter06" />
             <option value="$PROJECT_DIR$/ex04_1_2_3" />
             <option value="$PROJECT_DIR$/project5_2" />
           </set>
