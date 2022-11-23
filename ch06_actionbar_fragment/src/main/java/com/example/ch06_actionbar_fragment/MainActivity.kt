@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity(), ActionBar.TabListener {
 
         super.onCreate(savedInstanceState)
         //setContentView(R.layout.activity_main)
-        title = "액션바 & 프레그먼트"
+        title = "Actionbar & Fragment"
 
         //bar 만들기
         var bar = this.supportActionBar // androidx 버전으로 맞춰주자. (with Tab)
@@ -47,8 +47,6 @@ class MainActivity : AppCompatActivity(), ActionBar.TabListener {
         tab3.setTabListener(this)
         bar.addTab(tab3)
         //////////////////////////////bar, tab 만들기 끝
-
-
     }
 
     //내부 클래스
