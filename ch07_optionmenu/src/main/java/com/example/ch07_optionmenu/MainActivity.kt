@@ -44,7 +44,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.subRotate -> {
+            R.id.itemRotate -> {
+//                img1.animate().rotation(45f).start()  // for test - done
                 img1.rotation = editAngle.text.toString().toFloat()
                 img2.rotation = editAngle.text.toString().toFloat()
                 img3.rotation = editAngle.text.toString().toFloat()
