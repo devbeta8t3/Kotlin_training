@@ -11,14 +11,17 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/ch06" />
             <option value="$PROJECT_DIR$/ch06_actionbar_fragment" />
             <option value="$PROJECT_DIR$/ch06_webview" />
             <option value="$PROJECT_DIR$/ch07_dialog" />
             <option value="$PROJECT_DIR$/ch07_dialog_user" />
             <option value="$PROJECT_DIR$/ch07_optionmenu" />
+            <option value="$PROJECT_DIR$/ch10_activity" />
             <option value="$PROJECT_DIR$/chapter06" />
             <option value="$PROJECT_DIR$/ex04_1_2_3" />
             <option value="$PROJECT_DIR$/project5_2" />
+            <option value="$PROJECT_DIR$/project6_1" />
           </set>
         </option>
       </GradleProjectSettings>

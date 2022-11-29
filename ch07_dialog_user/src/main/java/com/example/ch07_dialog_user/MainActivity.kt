@@ -58,5 +58,6 @@ class MainActivity : AppCompatActivity() {
             dlg.show()
         }
 
+        // todo : ch07. (p.52) 직접풀어보기 7-3
     }
 }
