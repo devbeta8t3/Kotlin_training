@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.RadioButton
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,10 +24,12 @@ class MainActivity : AppCompatActivity() {
                 var intent2 = Intent(this, SecondActivity::class.java)
                 startActivity(intent2)
             }
-            if (radio2.isChecked) {
+            else if (radio2.isChecked) {
                 var intent3 = Intent(this, ThirdActivity::class.java)
                 startActivity(intent3)
             }
+            else
+                Toast.makeText(this, "선택해주세요.", Toast.LENGTH_SHORT).show()
         }
     }
     // todo : 10장은 명화 예제 하나 해보면 실제 써먹을 정도는 됩니다.
