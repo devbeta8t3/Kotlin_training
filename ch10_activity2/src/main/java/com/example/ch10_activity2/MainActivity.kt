@@ -46,6 +46,5 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("ImageName", imageName)
             startActivity(intent)
         }
-
     }
 }
